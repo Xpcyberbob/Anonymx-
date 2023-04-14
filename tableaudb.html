@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tableaudb.css">
+    <title>Interaction entre Utilisateur et Administrateur</title>
+  </head>
+  <body>
+    <section>
+      <input type="button"  value="Deconnecter" id="deconnecter">
+      <div class="contenu">
+        <div class="contenu1">
+          <h1>Créer un nouvel utilisateur</h1>
+        <form>
+          <input type="text" id="nomUtilisateur" name="nomUtilisateur" placeholder="Nom"><br><br>
+          <input type="email" id="emailUtilisateur" name="emailUtilisateur" placeholder="email"><br><br>
+          <input type="password" id="motDePasseUtilisateur" name="motDePasseUtilisateur" placeholder="Mot de passe utilisateur"><br><br>
+          <input type="button" id="creer" value="ajouter un utilisateur">
+        </form>
+        <br><br>
+        </div>
+        <div class="contenu2">
+          <h1>Supprimer un utilisateur</h1>
+          <form>
+            <input type="text" id="nomUtilisateurSupprime" name="nomUtilisateurSupprime" placeholder="Nom"><br><br>
+            <input type="password" id="motDePasseAdministrateur" name="motDePasseAdministrateur" placeholder="Mot de passe Administrateur"><br><br>
+            <input type="button"  id="suprr" value="Supprimer">
+          </form>
+          <br><br>
+        </div>
+       
+      </div>
+     
+    </section>
+    <script type="module" src="tableaudb.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.profil {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  .formm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #ok {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #ok:hover {
+    background-color: #555;
+  }
+  
+  #enr {
+    margin-top: 20px;
+  }
+  
